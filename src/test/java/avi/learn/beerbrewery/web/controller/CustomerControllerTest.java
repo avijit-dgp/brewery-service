@@ -1,4 +1,4 @@
-package avi.learn.beerbrewery.controller;
+package avi.learn.beerbrewery.web.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
