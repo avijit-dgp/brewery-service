@@ -1,10 +1,7 @@
 package avi.learn.beerbrewery.web.controller;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-import java.util.List;
-
-import org.assertj.core.api.Assertions;
+import avi.learn.beerbrewery.repository.CustomerRepository;
+import avi.learn.beerbrewery.web.model.CustomerDto;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,8 +13,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import avi.learn.beerbrewery.repository.CustomerRepository;
-import avi.learn.beerbrewery.web.model.CustomerDto;
+import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
